@@ -1,0 +1,62 @@
+.hintimage {
+	height: 40%; 
+	width: 40%;
+	
+	margin: 0.4em;
+	-webkit-transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.hintimage:hover {
+	box-shadow: 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 12px #FFDD1B, 0 0 15px #FFDD1B, 0 0 20px #FFDD1B, 0 0 30px #FFDD1B, 0 0 50px #FFDD1B;
+}
+
+#fullimage {
+	height: 81.7%;
+	width: 81.7%;
+	-webkit-transition: all 0.2s ease;
+	margin: 0.4em;
+}
+
+#fullimagediv {
+	display: none;
+}
+
+.blank {
+	font-weight: bold;
+	font-size: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 60px;
+	height: 80px;
+	cursor: pointer;
+}
+
+#hintbutton {
+	 display: inline-block;
+	 float: right;
+	 cursor: pointer;
+}
+
+#hintbutton:hover {
+	color: #FFDD1B;
+	-webkit-text-stroke: 0.1em black;
+}
+
+
+.letter {
+	font-weight: bold;
+	font-size: 40px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 10%;
+	cursor: pointer;
+	background: #222;
+	color: white;
+	-webkit-transition:all 0.1s ease;
+}
+
+.letter:hover {
+	color: yellow;
+	background: #333300;
+}
